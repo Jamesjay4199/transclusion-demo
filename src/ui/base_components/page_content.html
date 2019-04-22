@@ -1,0 +1,14 @@
+<main class="top-page" ng-controller="baseController">
+    <div ng-if="iframed">
+        <div ng-transclude="main-content">
+        </div>
+    </div>
+
+    <div ng-if="!iframed">
+        <div ng-transclude="header">
+            <div ng-include="'/src/ui/pages/header.html'"></div>
+        </div>
+        <div ng-transclude="main-content">
+        </div>
+    </div>
+</main>

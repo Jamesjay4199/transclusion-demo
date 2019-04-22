@@ -1,0 +1,222 @@
+body{
+    font-family: tahoma;
+}
+.grid-container{
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: 100px 150px auto 100px 120px 130px 190px 150px 80px;
+    text-align: center;
+    /* border: 1px solid red; */
+    padding: 10px 10px;
+}
+.navbar a{
+    border-right: 1px solid rgb(104, 104, 104);
+    margin-top: 55px;
+    height: 20px;
+    color: rgb(104, 104, 104);
+}
+.navbar a:nth-child(6){
+    color: #D8A235;
+}
+.navbar a:nth-child(8){
+    border: none;
+}
+.navbar a{
+    text-decoration: none;
+}
+.a:hover{
+    color: rgb(145, 145, 145);
+    /* box-shadow: 0px 1px 5px rgb(145, 145, 145); */
+}
+.after-navbar{
+    text-align: center;
+    color:white;
+    background-image: url(https://res.cloudinary.com/jamesjohn/image/upload/f_auto/v1555962355/head.png);
+    font-size: 20px;
+    background-size:cover;
+    height:230px;
+    width: 100%;
+    padding-top:125px;
+}
+.top-grid{
+    display: grid;
+    grid-template-rows: auto auto;
+}
+.text{
+    display: grid;
+    grid-template-columns: 300px auto 300px;
+}
+.center{
+    text-align: center;
+    color:rgb(145, 145, 145);
+    line-height: 22px;
+}
+.text p:first-of-type{
+    font-size: 25px;
+}
+.our{
+    color: #D8A235;
+}
+.fr2 h5{
+    cursor: pointer;
+}
+.fr2 h5:hover{
+    color: rgb(220, 181, 103);
+}
+.fr1 h5{
+    cursor: pointer;
+}
+.fr1 h5:hover{
+    color: rgb(220, 181, 103);
+}
+.history{
+    color: black;
+}
+.first-row{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* grid-column-gap: 30px; */
+}
+.first-image{
+    width: 670.5px;
+}
+.second-image{
+    width: 666.5px;
+}
+.fr1{
+    padding-left: 190px;
+    padding-right: 80px;
+    padding-top: 100px;
+}
+.our-fonts{
+    font-size: 25px;
+    color: rgb(88, 88, 88);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fr1{
+    color: rgb(151, 151, 151);
+    line-height: 22px;
+    background: rgb(250, 249, 249);
+}
+.fr2{
+    padding-left: 80px;
+    padding-right: 190px;
+    padding-top: 100px;
+}
+.fr2{
+    color: rgb(151, 151, 151);
+    line-height: 22px;
+    background: rgb(250, 249, 249);
+}
+.history{
+    color: rgb(88, 88, 88);
+}
+.our-team-text{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+.our-team-text b{
+    font-size: 25px;
+}
+.team{
+    color: rgb(88, 88, 88);
+}
+.card{
+    display: grid;
+    grid-template-columns: 150px auto auto auto auto 150px;
+    grid-column-gap: 30px;
+}
+.box{
+    box-shadow: 0px 0px 6px rgb(128, 128, 128);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+}
+.box img {
+    width: 100px;
+    height: 100px;
+}
+.fa1{
+    margin-left: 80%;
+    margin-top: 150px;
+    border: 1px solid rgb(248, 247, 247);
+    border-radius: 50%;
+    padding: 7px;
+    cursor: pointer;
+}
+.fa2{
+    margin-top: 150px;
+    margin-left: 10%;
+    border: 1px solid rgb(248, 247, 247);
+    border-radius: 50%;
+    padding: 7px;
+    cursor: pointer;
+}
+.card{
+    padding-bottom: 120px;
+}
+.card h4{
+    color: rgb(65, 65, 65);
+}
+.card h6{
+    color: rgb(128, 128, 128);
+    font-size: 11px;
+    margin-top: -10px;
+    
+}
+.box i{
+    margin:0 10px;
+    cursor: pointer;
+}
+.icon1{
+    margin-top:-12px
+}
+.footer{
+    display: grid;
+    grid-template-columns: 100px auto 200px 200px 100px;
+    background: rgb(204, 203, 203);
+    padding: 50px 0;
+    box-shadow: inset 0px 6px 20px #686868;
+    
+}
+.footerp1{
+    color: rgb(88, 88, 88);
+    /* border: 1px solid black; */
+    padding-bottom: 15px;
+    font-size: 15px;
+}
+.icon{
+    padding-top: 50px;
+}
+.iconi{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 8px;
+    margin-left: 3px;
+}
+.facebook{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 8px 12px;
+    margin-left: 3px;
+}
+.google{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 8px 5px;
+    margin-left: 3px;
+}
+.footerp2{
+    color: grey;
+}
+.shadow-right{
+    border: 1px solid rgb(204, 203, 203);
+    margin-left: 100%;
+    box-shadow: 0px -6px  15px rgb(204, 203, 203);
+}
+

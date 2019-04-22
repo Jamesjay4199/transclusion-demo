@@ -1,0 +1,16 @@
+<section>
+    <div ng-transclude="content">
+        <!-- 
+            Throws an error if no content is specified.
+            This is a required field.
+        -->
+    </div>
+
+    <div ng-transclude="footer">
+        <!--
+            This is an optional field 
+            Loads the default footer if no content is specified 
+        -->
+        <div ng-include="'/src/ui/pages/footer.html'"></div>
+    </div>
+</section>
